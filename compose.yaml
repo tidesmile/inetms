@@ -1,10 +1,10 @@
 # yaml: Yet Another Markup Language
 services:
   web1:
-    image: myweb01:01
+    image: myweb01:02
     ports:
       - "555:8000"
   web2:
-    image: myweb01:01
+    image: myweb01:02
     ports:
       - "5555:8000"
