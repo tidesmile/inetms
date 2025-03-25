@@ -18,6 +18,7 @@ async def read_item(request: Request, id: str):
         request=request, name="item.html", context={"id": id}
     )
 
+
 @app.get("/calc/{x}")
 async def calculate(request:Request,x:int):
     return templates.TemplateResponse(
